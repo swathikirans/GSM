@@ -41,15 +41,3 @@ download_file_from_google_drive('1t_NAC4WNEqA2XMm7bK3TUVByNLgnM5wJ', 'models/som
 download_file_from_google_drive('1JCHJZK7r15yHCUiHKh3XJrrvibEGZhu4', 'models/something-v1_RGB_InceptionV3_avg_segment16_checkpoint.pth.tar')
 download_file_from_google_drive('14uqOw9yAAuk9HDIsm-2NI7zEKKf4gstF', 'models/something-v1_RGB_InceptionV3_avg_segment24_checkpoint.pth.tar')
 download_file_from_google_drive('1gbtufj34TA-2Pwxn7RGPWwkvtyK98Zx5', 'models/diving48_RGB_InceptionV3_avg_segment16_checkpoint.pth.tar')
-
-
-# if __name__ == "__main__":
-#     import sys
-#     if len(sys.argv) is not 3:
-#         print("Usage: python google_drive.py drive_file_id destination_file_path")
-#     else:
-#         # TAKE ID FROM SHAREABLE LINK
-#         file_id = sys.argv[1]
-#         # DESTINATION FILE ON YOUR DISK
-#         destination = sys.argv[2]
-#         download_file_from_google_drive(file_id, destination)
