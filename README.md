@@ -1,6 +1,7 @@
 
 
 
+
 # Gate-Shift Networks for Video Action Recognition
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gate-shift-networks-for-video-action/action-recognition-in-videos-on-something-1)](https://paperswithcode.com/sota/action-recognition-in-videos-on-something-1?p=gate-shift-networks-for-video-action)
 
@@ -25,7 +26,7 @@ We release the code and trained models of our paper [Gate-Shift Networks for Vid
 Run `python data_scripts/process_dataset_something.py` to create the train/val list files.
 
 - **Diving48**: Download the videos and the annotations from the [official website](http://www.svcl.ucsd.edu/projects/resound/dataset.html). Copy the directory containing videos and the annotations to the directory `dataset-->Diving48`.
-Run `python data_scripts/extract_frames.py` for extracting the frames from the videos.
+Run `python data_scripts/extract_frames_diving48.py` for extracting the frames from the videos.
 Run `python data_scripts/process_dataset_diving.py` for creating the train/test list files.
 
 ### Training
@@ -61,7 +62,10 @@ The table shows the results reported in the paper. To reproduce the results, run
 	<td align="center">8</td>  
 	<td align="center"><a href='https://drive.google.com/open?id=15RdG7EwPw29rk_HRI85zbo5uT13HOaHj'>49.01</a></td>  
     <td rowspan='7'>
-<img src="https://drive.google.com/uc?export=view&id=1so_4tupLeJy-KZM7fPPCebA8El05jffj" alt="Visualization" width="490" height=""></td>
+    <a href="http://www.youtube.com/watch?feature=player_embedded&v=j7tM4vPEMfs
+" target="_blank"><img src="http://img.youtube.com/vi/j7tM4vPEMfs/0.jpg" 
+alt="Visualization" width="480" height="320" border="10" /></a>
+</td>
 </tr>  
 <tr>  
 	<td align="center">12</td>  
