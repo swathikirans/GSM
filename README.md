@@ -56,7 +56,7 @@ The table shows the results reported in the paper. To reproduce the results, run
 <tr>  
 	<th>No. of frames</th>  
 	<th>Top-1 Accuracy (%)</th>
-    <th>Something Something-v1</th>
+    <th>Something Something-v1 Visualization</th>
 </tr>  
 <tr>  
 	<td align="center">8</td>  
