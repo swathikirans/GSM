@@ -5,14 +5,14 @@
 # Gate-Shift Networks for Video Action Recognition
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gate-shift-networks-for-video-action/action-recognition-in-videos-on-something-1)](https://paperswithcode.com/sota/action-recognition-in-videos-on-something-1?p=gate-shift-networks-for-video-action)
 
-We release the code and trained models of our paper [Gate-Shift Networks for Video Action Recognition](https://arxiv.org/pdf/1912.00381.pdf). If you find our work useful for your research, please cite
+We release the code and trained models of our paper [Gate-Shift Networks for Video Action Recognition](http://openaccess.thecvf.com/content_CVPR_2020/papers/Sudhakaran_Gate-Shift_Networks_for_Video_Action_Recognition_CVPR_2020_paper.pdf). If you find our work useful for your research, please cite
 ```
-@article{sudhakaran2019gate,
-  title={{Gate-Shift Networks for Video Action Recognition}},
-  author={Sudhakaran, Swathikiran and Escalera, Sergio and Lanz, Oswald},
-  journal={arXiv preprint arXiv:1912.00381},
-  year={2019}
-}
+@InProceedings{gsm,
+author = {Sudhakaran, Swathikiran and Escalera, Sergio and Lanz, Oswald},
+title = {{Gate-Shift Networks for Video Action Recognition}},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+year = {2020}
+} 
 ```
 
 ### Prerequisites
@@ -49,7 +49,7 @@ For prediction using ensemble of models, perform evaluation with the option ``--
 
 
 ### Models
-The models can be downloaded by running ``python download_models.py``.
+The models can be downloaded by running ``python download_models.py`` or from [google drive](https://drive.google.com/drive/folders/1gCyshHmtgyPK5JhNH-1eY1iqhPaL_0WS?usp=sharing).
 The table shows the results reported in the paper. To reproduce the results, run the script obtained when clicked on the accuracy scores.
 <table style="width:100%" align="center">  
 <col width="150">
